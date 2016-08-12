@@ -1,94 +1,87 @@
 footer
-	//width: 100%
-	//overflow-x: hidden
-	//background: url(../img/adcover.png) center center
-	//background-size: cover
 	width: 100%
 	overflow-x: hidden
-	height: 100px
-	margin: 30px 0 0 0
+	height: 120px
+	// our background image!
+	//background: url(../img/adcover.png) center center
+	// this allows the image to cover the header's height(450px) and will adjust itself to fit
 	background-size: cover
 
-	.lockup
-		font-family: Raleway
-		// fixes the mess that float makes
-		+clearfix
-		width: 100%
+	// logo in the top-left
+	.logo
+		// bourbon mixin
+		float: left
+		margin: 20px 0 0 20px
+
+		// refer to includes/icons/adlogo.html for the path color
+		// refer to the header.html file for including it on the page
+		//path
+			fill: rgba(255,0,0,0.2)
+
+	// navigation bar on the top-right    
+	nav
+		float: right
+		margin: 10px 30px 0 0
 		
-		.logo
-			display: absolute
-			float: left
-			margin: 20px 0 0 20px
+		a
+			display: inline-block
+			// gives the nav elements some margin on their left side
+			margin: 20px 20px 0 20px
 
-			// refer to includes/icons/adlogo.html for the path color
-			// refer to the header.html file for including it on the page
-			//path
-				fill: rgba(255,0,0,0.2)
-
-		// our description under the artist name
-		.kicker
-			font-weight: 200
-			float: left
-			margin: 65px 0 0 32px
+			color: rgba(60,60,60,1)
 			// refer to assets/css/2-base/placeholders to edit
 			@extend %small-bold
-			letter-spacing: 0.05em
-			color: rgba(60,60,60,1)
-			//line-height: 1
+
+			// for the highlight color, refer to assets/css/2-base/_base.sass
+			&:hover
+				color: rgba(128,128,128,1)
+
+	.social-links
+		//max-width: 100px
+		position: relative
+		float: right
+		margin: 50px 0 0 40px
+		// this will space everything evenly and lined up nicely, no matter how many more items you put in there
+		+display(flex)
+		+justify-content(space-around)
+		// makes the logos responsive when the browser is smaller
+		+flex-wrap(wrap)
+
+		a
+			position: absolute
+			//position: inline-block
 			display: block
-			position: absolute
-			
+			background: white
+			+size(30px)
+			// this helps with horizontal positioning
+			text-align: center
+			// this helps with vertical positioning
+			line-height: 30px
+			color: $accent-color
+			// makes the sections into circles instead of squares
+			border-radius: 50%
+			margin: 5px 0px 0px 53px
+			font-size: 20px
+			// needed for the hover animation below
+			+transition()
 
-		.content-wrap
-			float: right
-			
-			a
-				display: inline-block
-				// gives the nav elements some margin on their left side
-				margin: 30px 50px 0 20px
+			&:hover
+				// increases the scale of the social network icons when the cursor hovers over them
+				+transform(scale(1.2))
 
-				color: rgba(60,60,60,1)
-				// refer to assets/css/2-base/placeholders to edit
-				@extend %small-bold
 
-				// for the highlight color, refer to assets/css/2-base/_base.sass
-	
-				// This '&' symbol refers to all of the selectors that came before
-				&:hover
-					color: lighten(rgba(90,90,90,1), 20%)
-	
-		.social-links
-			//max-width: 100px
-			//position: relative
-			position: absolute
-			float: right
-			margin: 50px 0 0 60px
-			// this will space everything evenly and lined up nicely, no matter how many more items you put in there
-			+display(flex)
-			+justify-content(space-around)
-			// makes the logos responsive when the browser is smaller
-			+flex-wrap(wrap)
-
-			a
-				//position: absolute
-				display: block
-				background: white
-				+size(30px)
-				// this helps with horizontal positioning
-				text-align: center
-				// this helps with vertical positioning
-				line-height: 30px
-				color: $accent-color
-				// makes the sections into circles instead of squares
-				border-radius: 50%
-				margin: 5px 0 0 53px
-				font-size: 20px
-				// needed for the hover animation below
-				+transition()
-
-				&:hover
-					// increases the scale of the social network icons when the cursor hovers over them
-					+transform(scale(1.2))
+	// our description under the artist name
+	.kicker
+		font-weight: 200
+		float: left
+		margin: 65px 0 0 32px
+		// refer to assets/css/2-base/placeholders to edit
+		@extend %small-bold
+		letter-spacing: 0.05em
+		color: rgba(60,60,60,1)
+		//line-height: 1
+		display: block
+		position: absolute
 	
 	
 		.copyright-wrap
