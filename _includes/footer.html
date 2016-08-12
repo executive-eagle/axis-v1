@@ -1,0 +1,28 @@
+<footer>
+
+<div class="lockup">
+    <div class="logo">{% include icons/axis-logo.svg %}</div>
+    
+	<p class="kicker">Photography</p>
+	
+    <div class="content-wrap">
+    
+        <nav>
+            <a href="/contact">Contact</a>
+        </nav>
+    
+    </div>
+	
+	<nav class="social-links">
+	{% for link in site.data.settings.social %}
+		<a href="{{ link.link }}" class="icon-{{ link.icon }}"></a>
+	{% endfor %}
+	</nav>
+	
+	<div class="copyright-wrap">
+    	<p class="copyright">All content copyright 2016</p>
+    </div>
+	
+</div>
+    
+</footer>

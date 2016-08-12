@@ -1,0 +1,20 @@
+<header class="contact-header">
+    <!-- Always describe what you see in your sketch/rendering for the design with markup -->
+    <div class="logo">{% include icons/axis-logo.svg %}</div>
+    
+    <nav>
+		<!-- This will bring the user back to the home page -->
+        <a href="/">Home</a>
+    </nav>
+	
+	<!-- Social Network link(s) -->
+	<div class="social-links">
+	{% for link in site.data.settings.social %}
+		<a href="{{ link.link }}" class="icon-{{ link.icon }}"></a>
+	{% endfor %}
+	</div>
+	
+    <!-- Our subtitle -->
+    <p class="kicker">Photography</p>
+    
+</header>

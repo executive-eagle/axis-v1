@@ -1,0 +1,19 @@
+# Site settings
+title: Axis
+description: Photography
+email: arthur@axis.productions
+
+
+
+# MENU
+
+# ANIMATION FOR PHOTOS
+
+
+# SEO
+
+# SOCIAL NETWORK ICONS/LINKS
+# refer to assets/css/5-sections/_footer.sass and _header.sass
+social:
+- {icon: 'instagram', link: ''}
+

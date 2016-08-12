@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="108"
+   height="50"
+   viewBox="0 0 108 50.000001"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="axis-logo.svg"
+   inkscape:export-filename="/Users/clone/Desktop/axis-logo.png"
+   inkscape:export-xdpi="90.479698"
+   inkscape:export-ydpi="90.479698">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="61.155551"
+     inkscape:cy="41.802148"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1280"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1002.3622)">
+    <text
+       transform="scale(-1,-1)"
+       sodipodi:linespacing="125%"
+       id="text4471"
+       y="-1012.4671"
+       x="-43.651375"
+       style="font-style:normal;font-weight:normal;font-size:43.93015289px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Futura;-inkscape-font-specification:'Futura Medium';fill:#808080;fill-opacity:1"
+         y="-1012.4671"
+         x="-43.651375"
+         id="tspan4473"
+         sodipodi:role="line">V</tspan></text>
+    <circle
+       r="3.215853"
+       cy="1037.0571"
+       cx="28.786333"
+       id="circle4475"
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4477"
+       y="1045.2054"
+       x="45.720722"
+       style="font-style:normal;font-weight:normal;font-size:29.9436779px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#808080;stroke-width:0.76014876px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Futura;-inkscape-font-specification:'Futura Medium';fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:0.76014876px;stroke-opacity:1"
+         y="1045.2054"
+         x="45.720722"
+         id="tspan4479"
+         sodipodi:role="line"><tspan
+   id="tspan4481"
+   style="letter-spacing:2.6757226px;stroke-width:0.76014876px">X</tspan><tspan
+   id="tspan4483"
+   style="letter-spacing:0.71453977px;stroke-width:0.76014876px">I</tspan>S</tspan></text>
+    <circle
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:6;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle4485"
+       cx="71.273209"
+       cy="1017.398"
+       r="2.6283088" />
+  </g>
+</svg>
