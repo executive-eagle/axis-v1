@@ -15,5 +15,5 @@ email: arthur@axis.productions
 # SOCIAL NETWORK ICONS/LINKS
 # refer to assets/css/5-sections/_footer.sass and _header.sass
 social:
-- {icon: 'instagram', link: ''}
+- {icon: 'instagram', link: 'https://www.instagram.com/'}
 
