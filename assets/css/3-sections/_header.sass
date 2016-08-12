@@ -27,6 +27,7 @@ header
 		float: right
 		margin: 10px 30px 0 0
 
+		// contact
 		a
 			display: inline-block
 			// gives the nav elements some margin on their left side
@@ -40,27 +41,28 @@ header
 			&:hover
 				color: rgba(128,128,128,1)
 
-			a
-				position: absolute
-				//position: inline-block
-				display: block
-				background: white
-				+size(30px)
-				// this helps with horizontal positioning
-				text-align: center
-				// this helps with vertical positioning
-				line-height: 30px
-				color: $accent-color
-				// makes the sections into circles instead of squares
-				border-radius: 50%
-				margin: 5px 0px 0px 53px
-				font-size: 20px
-				// needed for the hover animation below
-				+transition()
+		// instagram icon
+		a
+			position: absolute
+			//position: inline-block
+			display: block
+			background: white
+			+size(30px)
+			// this helps with horizontal positioning
+			text-align: center
+			// this helps with vertical positioning
+			line-height: 30px
+			color: $accent-color
+			// makes the sections into circles instead of squares
+			border-radius: 50%
+			margin: 5px 0px 0px 53px
+			font-size: 20px
+			// needed for the hover animation below
+			+transition()
 
-				&:hover
-					// increases the scale of the social network icons when the cursor hovers over them
-					+transform(scale(1.2))
+			&:hover
+				// increases the scale of the social network icons when the cursor hovers over them
+				+transform(scale(1.2))
 
 
 	// our description under the artist name
