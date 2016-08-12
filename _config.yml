@@ -1,5 +1,9 @@
 # Build settings
 markdown: kramdown
+baseurl: /axis-v1
+
+exclude: ['README.md']
+
 permalink: pretty
 
 port: 3000
