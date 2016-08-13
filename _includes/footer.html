@@ -1,18 +1,21 @@
 <footer>
 
-<div class="logo">{% include icons/axis-logo.svg %}</div>
+<!-- Always describe what you see in your sketch/rendering for the design with markup -->
+    <div class="logo">{% include icons/axis-logo.svg %}</div>
     
     <nav>
 		<!-- This will link to the contact page -->
         <a href="contact">Contact</a>
-    </nav>
+    
 	
 	<!-- Social Network link(s) -->
-	<div class="social-links">
-	{% for link in site.data.settings.social %}
+	<!--<div class="social-links">
+	{% for link in site.data.settings.social %}-->
 		<a href="{{ link.link }}" class="icon-{{ link.icon }}"></a>
-	{% endfor %}
-	</div>
+	<!--{% endfor %}
+	</div>-->
+		
+	</nav>
 	
     <!-- Our subtitle -->
     <p class="kicker">Photography</p>
