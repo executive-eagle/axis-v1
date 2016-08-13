@@ -4,31 +4,16 @@
     
     <nav>
 		<!-- This will link to the contact page -->
+
         <a href="https://executive-eagle.github.io/axis-v1/">Home</a>
-    
-	
+
 	<!-- Social Network link(s) -->
 	<!--<div class="social-links">
 	{% for link in site.data.settings.social %}-->
-		<a href="{{ link.link }}" class="icon-instagram"></a>
+		<a href="{{ link.link }}" class="icon-{{ link.icon }}"></a>
 	<!--{% endfor %}
 	</div>-->
 		
 	</nav>
-=======
-		<!-- This will bring the user back to the home page -->
-        <a href="/axis-v1">Home</a>
-    </nav>
-	
-	<!-- Social Network link(s) -->
-	<div class="social-links">
-	{% for link in site.data.settings.social %}
-		<a href="{{ link.link }}" class="icon-{{ link.icon }}"></a>
-	{% endfor %}
-	</div>
->>>>>>> parent of 92ff0dc... updated contact-header.html
-	
-    <!-- Our subtitle -->
-    <p class="kicker">Photography</p>
     
 </header>
