@@ -12,7 +12,6 @@ footer
 		// bourbon mixin
 		float: left
 		margin: 20px 0 0 20px
-
 		// refer to includes/icons/adlogo.html for the path color
 		// refer to the header.html file for including it on the page
 		//path
@@ -20,13 +19,16 @@ footer
 
 	// navigation bar on the top-right    
 	nav
+		max-width: 1200px
 		float: right
-		margin: 10px 30px 0 0
-		
+		margin: 30px 50px 0 0
+
+		// contact
 		a
 			display: inline-block
 			// gives the nav elements some margin on their left side
-			margin: 20px 20px 0 20px
+			margin: 0 auto
+			padding-bottom: 10px
 
 			color: rgba(60,60,60,1)
 			// refer to assets/css/2-base/placeholders to edit
@@ -36,31 +38,21 @@ footer
 			&:hover
 				color: rgba(128,128,128,1)
 
-	.social-links
-		//max-width: 100px
-		position: relative
-		float: right
-		margin: 50px 0 0 40px
-		// this will space everything evenly and lined up nicely, no matter how many more items you put in there
-		+display(flex)
-		+justify-content(space-around)
-		// makes the logos responsive when the browser is smaller
-		+flex-wrap(wrap)
-
-		a
-			position: absolute
-			//position: inline-block
-			display: block
+		// instagram icon
+		.icon-instagram
+			//position: absolute
+			position: inline-block
+			//display: block
 			background: white
 			+size(30px)
 			// this helps with horizontal positioning
 			text-align: center
 			// this helps with vertical positioning
-			line-height: 30px
+			//line-height: 30px
 			color: $accent-color
 			// makes the sections into circles instead of squares
 			border-radius: 50%
-			margin: 5px 0px 0px 53px
+			margin: 10 auto
 			font-size: 20px
 			// needed for the hover animation below
 			+transition()
