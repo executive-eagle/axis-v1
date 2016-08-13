@@ -20,6 +20,21 @@
 		//path
 			fill: rgba(255,0,0,0.2)
 
+
+	// our description under the artist name
+	.kicker
+		font-weight: 200
+		float: left
+		margin: 65px 0 0 32px
+		// refer to assets/css/2-base/placeholders to edit
+		@extend %small-bold
+		letter-spacing: 0.05em
+		color: rgba(60,60,60,1)
+		//line-height: 1
+		display: block
+		position: absolute
+
+
 	// navigation bar on the top-right    
 	nav
 		max-width: 300px
@@ -63,18 +78,7 @@
 				+transform(scale(1.2))
 
 
-	// our description under the artist name
-	.kicker
-		font-weight: 200
-		float: left
-		margin: 65px 0 0 32px
-		// refer to assets/css/2-base/placeholders to edit
-		@extend %small-bold
-		letter-spacing: 0.05em
-		color: rgba(60,60,60,1)
-		//line-height: 1
-		display: block
-		position: absolute
+	
 
 
 //@media (max-width: 500px)
