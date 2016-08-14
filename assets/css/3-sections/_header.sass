@@ -37,27 +37,28 @@ header
 
 	// navigation bar on the top-right    
 	nav
-		max-width: 300px
+		max-width: 1000px
 		max-height: 210px
 		float: right
-		//margin: 35px 50px 0 0
+		margin: 35px 45px 0 0
 
 		// home
 		a
+			display: inline-block
 			// aligns the elements vertically
 			vertical-align: middle
-			margin: 0 5px 0 0
+			margin: 0 10px 0 0
 			text-align: center
 			color: rgba(60,60,60,1)
 			// refer to assets/css/2-base/placeholders to edit
 			@extend %small-bold
-			
 			// for the highlight color, refer to assets/css/2-base/_base.sass
 			&:hover
 				color: rgba(128,128,128,1)
 	
 		// instagram icon
 		.ig-icon
+			display: inline-block
 			vertical-align: middle
 			margin: 3px 0 0 0
 			//position: absolute
@@ -75,7 +76,6 @@ header
 			&:hover
 				// increases the scale of the social network icons when the cursor hovers over them
 				+transform(scale(1.2))
-
 
 
 	
