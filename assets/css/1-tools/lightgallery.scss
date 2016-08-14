@@ -4,6 +4,10 @@
 
 /* Make sure to delete the n1z373 etc. from the path for the icons to work */
 /* Keep the question mark. (like with the favicon) */
+
+
+
+/* Each icon is a font. You may change the icon by locating the "content: " property */
 @font-face {
   font-family: 'lg';
   src: url("{{site.baseurl}}/{{site.baseurl}}/assets/img/lightgallery-icons/lg.eot");
@@ -48,13 +52,13 @@
   right: 20px;
 }
 .lg-actions .lg-next:before {
-  content: "\e095";
+  content: ">";
 }
 .lg-actions .lg-prev {
   left: 20px;
 }
 .lg-actions .lg-prev:after {
-  content: "\e094";
+  content: "<";
 }
 
 @-webkit-keyframes lg-right-end {
@@ -186,7 +190,7 @@
   color: #FFF;
 }
 .lg-toolbar .lg-close:after {
-  content: "\e070";
+  content: "x";
 }
 .lg-toolbar .lg-download:after {
   content: "\e0f2";
@@ -363,7 +367,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   width: 50px;
 }
 .lg-outer .lg-toogle-thumb:after {
-  content: "\e1ff";
+  content: "v";
 }
 .lg-outer .lg-toogle-thumb:hover {
   color: #FFF;
