@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="40"
-   height="40"
-   viewBox="0 0 40.000001 40.000001"
+   width="21"
+   height="21"
+   viewBox="0 0 21.000001 21.000001"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="ig-con.svg"
+   sodipodi:docname="ig-icon.svg"
    inkscape:export-filename="/Users/clone/Desktop/ig-icon.png"
    inkscape:export-xdpi="90.479698"
    inkscape:export-ydpi="90.479698">
@@ -56,10 +56,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1012.3622)">
+     transform="translate(0,-1031.3622)">
     <g
        id="g4230"
-       transform="translate(-8.9285717,11.071446)"
+       transform="matrix(0.53483875,0,0,0.53483875,-4.9721199,495.63633)"
        inkscape:export-xdpi="90.479698"
        inkscape:export-ydpi="90.479698">
       <rect
